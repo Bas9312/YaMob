@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YaMob</string>
+    <string name="artists_list_element_albums_and_tracks_template" formatted="false">%s, %s</string>
+    <plurals name="artists_list_element_albums_template" formatted="false">
+        <item quantity="one">%d альбом</item>
+        <item quantity="few">%d альбома</item>
+        <item quantity="many">%d альбомов</item>
+        <item quantity="other">%d альбомов</item>
+    </plurals>
+    <plurals name="artists_list_element_tracks_template" formatted="false">
+        <item quantity="one">%d песня</item>
+        <item quantity="few">%d песни</item>
+        <item quantity="many">%d песен</item>
+        <item quantity="other">%d песен</item>
+    </plurals>
+    <string name="artists_list_activity_title">Исполнители</string>
+    <string name="info_anout_artist_activity_no_extra_error">Не выбран исполнитель</string>
+    <string name="info_about_artist_biography">Биография</string>
+    <string name="action_open_artist_link">Открыть сайт исполнителя</string>
+    <string name="artists_list_activity_data_unavailable">Невозможно получить данные</string>
+</resources>

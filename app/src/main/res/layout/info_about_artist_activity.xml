@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <bas.com.yamob.ui.widgets.AspectImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivCoverBig"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/info_about_artist_activity_padding"
+            android:paddingRight="@dimen/info_about_artist_activity_padding"
+            android:paddingBottom="@dimen/info_about_artist_activity_padding"
+            android:paddingTop="@dimen/info_about_artist_activity_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="genre1, genre2, genre3, genre4, genre5"
+                android:id="@+id/tvGenres"
+                android:textSize="@dimen/text_size_normal"
+                android:singleLine="false"
+                android:maxLines="2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="x3 albums, x3 tracks"
+                android:id="@+id/tvAlbumsAndTracks"
+                android:textSize="@dimen/text_size_normal"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/info_about_artist_activity_inner_margin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/info_about_artist_biography"
+                android:id="@+id/textView"
+                android:textSize="@dimen/text_size_big"
+                android:singleLine="true"
+                android:layout_marginTop="@dimen/info_about_artist_activity_inner_margin"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                android:id="@+id/tvBiography"
+                android:textSize="@dimen/text_size_normal"
+                android:layout_marginTop="@dimen/info_about_artist_activity_inner_margin"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

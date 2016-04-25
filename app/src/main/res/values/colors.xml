@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#F2F2F2</color>
+
+    <!-- Pull to refresh colors -->
+    <color name="ptr_red">#FF0066</color>
+    <color name="ptr_green">#00FF00</color>
+    <color name="ptr_blue">#3333AD</color>
+    <color name="ptr_yellow">#FFFF00</color>
+</resources>

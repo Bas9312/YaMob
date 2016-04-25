@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YaMob</string>
+    <string name="artists_list_element_albums_and_tracks_template" formatted="false">%s, %s</string>
+    <plurals name="artists_list_element_albums_template" formatted="false">
+        <item quantity="one">%d album</item>
+        <item quantity="few">%d albums</item>
+        <item quantity="many">%d albums</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="artists_list_element_tracks_template" formatted="false">
+        <item quantity="one">%d track</item>
+        <item quantity="few">%d tracks</item>
+        <item quantity="many">%d tracks</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+    <string name="artists_list_activity_title">Artists</string>
+    <string name="info_anout_artist_activity_no_extra_error">Artist not selected</string>
+    <string name="info_about_artist_biography">Biography</string>
+    <string name="action_open_artist_link">Open site</string>
+    <string name="artists_list_activity_data_unavailable">Can\'t get data</string>
+</resources>

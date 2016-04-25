@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_normal">16dp</dimen>
+    <dimen name="text_size_big">18dp</dimen>
+    <dimen name="artists_list_element_padding">15dp</dimen>
+    <dimen name="artists_list_element_image_size">120dp</dimen>
+    <dimen name="artists_list_element_inner_padding">5dp</dimen>
+    <dimen name="artists_list_element_inner_bottom_padding">2dp</dimen>
+    <dimen name="artists_list_activity_divider_height">2dp</dimen>
+    <dimen name="info_about_artist_activity_inner_margin">15dp</dimen>
+    <dimen name="info_about_artist_activity_padding">12dp</dimen>
+</resources>
